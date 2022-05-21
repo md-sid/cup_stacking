@@ -1,0 +1,6 @@
+1, u, r, r, d
+1, u, r, r, r, r, d
+1, u, r, r, r, r, r, r, d
+2, u, r, r, r, d
+2, u, r, r, r, r, r, d
+3, u, r, r, r, r, d
