@@ -9,7 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 
-docs/
 class_algorithms/
 class_saved_results/
 
