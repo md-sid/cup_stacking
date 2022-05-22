@@ -16,11 +16,11 @@ def main(alg):
 
 
 if __name__ == '__main__':
-    data = open('sample_input1.txt', 'r')
+    data = open('class_algorithms/test.txt', 'r')
     output = main(data)
     plt.matshow(output, cmap=plt.cm.jet)
     ax = plt.gca()
     ax.axes.xaxis.set_visible(False)
     ax.axes.yaxis.set_visible(False)
     plt.show()
-    plt.imsave(data.name[0:-4] + '.png', output, cmap=plt.cm.jet)
+    plt.imsave('class_saved_results/' + data.name[17:-4] + '.png', output, cmap=plt.cm.jet)
